@@ -4,6 +4,7 @@ enum class Erros(
     val code: String,
     val message: String
 ) {
+    ML000("ML000", "Unauthorized"),
     ML001("ML001", "Invalid request"),
 
     ML101("ML-101", "Book [%s] not exists"),

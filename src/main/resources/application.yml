@@ -8,3 +8,6 @@ spring:
     password: root
   jackson:
     default-property-inclusion: non_null
+jwt:
+  secret: 694f4860-2f7c-4a8d-92e1-10f7cf3b3a02
+  expiration: 999999
